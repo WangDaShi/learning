@@ -1,5 +1,7 @@
 package com.loatr.learning;
 
+import java.util.Map;
+
 public interface Mapper {
     
     void map();

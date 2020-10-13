@@ -1,88 +1,76 @@
 package com.loatr.learning;
 
-import static org.mockito.Mockito.ignoreStubs;
-import static org.mockito.Mockito.never;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
-import java.time.LocalDateTime;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.net.InetSocketAddress;
+import java.nio.ByteBuffer;
+import java.nio.channels.*;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import org.apache.commons.beanutils.BeanUtils;
-import org.apache.tomcat.util.http.fileupload.IOUtils;
-import org.assertj.core.util.Lists;
-import org.springframework.cglib.core.ReflectUtils;
 
 public class SimpleTest {
 
     private static ObjectMapper jsonMapper = new ObjectMapper();
+    private static ExecutorService executor = Executors.newSingleThreadExecutor();
+    private static ExecutorService executor2 = Executors.newSingleThreadExecutor();
 
-    public static void main(String[] args) throws InterruptedException, JsonProcessingException, IOException {
-        File jsonFile = new File("D://code/java/excel/setting.json");
-        // Transaction tran = new Transaction();
-        // tran.setId("123456");
-        // tran.setNow(LocalDateTime.now());
-        // tran.setNum(100);
-        // fill(tran);
+    private static ByteBuffer readBuffer = ByteBuffer.allocate(512);
+    private static ByteBuffer writeBuffer = ByteBuffer.allocate(512);
 
+    public static void main(String[] args){
+        SocketClientTest client = new SocketClientTest();
+        new Thread(()->client.startClient()).start();
+        test();
     }
 
-
-    private static JsonNode phase(File file){
-        JsonNode node;
+    public static void test(){
         try {
-            node = jsonMapper.readTree(file);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            ServerSocketChannel ssc = ServerSocketChannel.open();
+            ssc.bind(new InetSocketAddress("127.0.0.1",8081));
+            ssc.configureBlocking(false);
+            Selector selector = Selector.open();
+            ssc.register(selector, SelectionKey.OP_ACCEPT);
+            while(true){
+                int available = selector.select();
+                if(available == 0){
+                    continue;
+                }
+                Set<SelectionKey> keys = selector.selectedKeys();
+                Iterator<SelectionKey> iterator = keys.iterator();
+                while(iterator.hasNext()){
+                    SelectionKey key = iterator.next();
+                    iterator.remove();
+                    if(key.isAcceptable()){
+                        SocketChannel sc = ((ServerSocketChannel) key.channel()).accept();
+                        sc.configureBlocking(false);
+                        sc.register(selector,SelectionKey.OP_READ | SelectionKey.OP_WRITE);
+                    }else if(key.isReadable()){
+                        read((SocketChannel)key.channel());
+                    }else if(key.isWritable()){
+                        write((SocketChannel)key.channel());
+                    }
+                }
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return node;
     }
 
-    private static Mapper[] toMapper(JsonNode jsonNode) {
-        return null;
+    private static void read(SocketChannel channel) throws IOException {
+        readBuffer.clear();
+        channel.read(readBuffer);
+        readBuffer.flip();
+        System.out.println("server received message:" + new String(readBuffer.array()));
     }
 
-    private static Map<String,Object> matchData(Object[] datas,JsonNode node){
-        List<String> names = Lists.newArrayList();
-        for(JsonNode n : node){
-            names.add(n.asText());
-        }
-        if(datas.length != names.size()){
-            throw new IllegalArgumentException("输入数据与json配置不符");
-        }
-        Map<String,Object> dataMap = new HashMap<>();
-        for(int i = 0;i < names.size();i++){
-            if(dataMap.containsKey(names.get(i))){
-                throw new IllegalArgumentException("存在重复的名字");
-            }
-            dataMap.put(names.get(i),datas[i]);
-        }
-        return dataMap;
+    private static void write(SocketChannel channel) throws IOException {
+        System.out.println("write");
+        writeBuffer.rewind();
+        writeBuffer.put("this is a reply".getBytes());
+        channel.write(writeBuffer);
     }
-
-    public static void fill(File jsonFile,File excelFile,Object... datas) {
-        JsonNode node = phase(jsonFile);
-        Map<String,Object> dataMap = matchData(datas, node);
-        List<Mapper> mappers = extractMapper(node.get("mappers"));
-        for(Mapper mapper : mappers){
-            mapper.map(dataMap);
-        }
-    }
-
-    private static List<Mapper> extractMapper(JsonNode jsonNode) {
-        return null;
-    }
-
 }
