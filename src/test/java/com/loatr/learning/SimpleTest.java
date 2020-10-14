@@ -22,8 +22,8 @@ public class SimpleTest {
     private static ByteBuffer writeBuffer = ByteBuffer.allocate(512);
 
     public static void main(String[] args){
-        SocketClientTest client = new SocketClientTest();
-        new Thread(()->client.startClient()).start();
+//        SocketClientTest client = new SocketClientTest();
+//        new Thread(()->client.startClient()).start();
         test();
     }
 
@@ -47,16 +47,18 @@ public class SimpleTest {
                     if(key.isAcceptable()){
                         SocketChannel sc = ((ServerSocketChannel) key.channel()).accept();
                         sc.configureBlocking(false);
-                        sc.register(selector,SelectionKey.OP_READ | SelectionKey.OP_WRITE);
+                        sc.register(selector,SelectionKey.OP_READ);
                     }else if(key.isReadable()){
                         read((SocketChannel)key.channel());
+                        key.interestOps(SelectionKey.OP_WRITE);
                     }else if(key.isWritable()){
                         write((SocketChannel)key.channel());
+                        key.interestOps(SelectionKey.OP_READ);
                     }
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("通讯终端，message:" + e.getMessage());
         }
     }
 
@@ -68,9 +70,9 @@ public class SimpleTest {
     }
 
     private static void write(SocketChannel channel) throws IOException {
-        System.out.println("write");
-        writeBuffer.rewind();
+        writeBuffer.clear();
         writeBuffer.put("this is a reply".getBytes());
+        writeBuffer.flip();
         channel.write(writeBuffer);
     }
 }

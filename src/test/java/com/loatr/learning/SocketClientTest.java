@@ -29,4 +29,10 @@ public class SocketClientTest {
             e.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String line = scanner.nextLine();
+        System.out.println(line);
+    }
 }
