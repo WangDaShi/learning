@@ -8,6 +8,7 @@ plugins {
 group = 'com.loatr'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
+//luceneVersion = '8.6.3'
 
 configurations {
 	compileOnly {
@@ -16,6 +17,7 @@ configurations {
 }
 
 repositories {
+	maven { url 'https://maven.aliyun.com/repository/public' }
 	mavenCentral()
 }
 
@@ -23,7 +25,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compile group: 'org.springframework', name: 'spring-webflux', version: '5.2.9.RELEASE'
+	implementation group: 'org.springframework', name: 'spring-webflux', version: '5.2.9.RELEASE'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'mysql:mysql-connector-java'
@@ -34,6 +36,12 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	//lucene
+	implementation group: 'org.apache.lucene', name: 'lucene-core', version: '8.6.3'
+	implementation group: 'org.apache.lucene', name: 'lucene-queryparser', version: '8.6.3'
+	implementation group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '8.6.3'
+	implementation group: 'org.apache.lucene', name: 'lucene-highlighter', version: '8.6.3'
+
 }
 
 test {

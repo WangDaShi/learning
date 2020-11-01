@@ -12,6 +12,9 @@ import java.util.concurrent.Executors;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * 一个普通的测试类
+ */
 public class SimpleTest {
 
     private static ObjectMapper jsonMapper = new ObjectMapper();
@@ -22,8 +25,12 @@ public class SimpleTest {
     private static ByteBuffer writeBuffer = ByteBuffer.allocate(512);
 
     public static void main(String[] args){
-//        SocketClientTest client = new SocketClientTest();
-//        new Thread(()->client.startClient()).start();
+
+        String str = "lalala";
+        String[] splits = str.split(".");
+        for(var s : splits){
+            System.out.println(s);
+        }
         test();
     }
 
