@@ -19,15 +19,30 @@
 </body>
 <script>
 
+    function dealError(error){
+        console.log('出错啦，报错信息：' + error);
+    }
+
     axios.get('/random/10')
         .then(function (response) {
             console.log(response.data);
-        })
-        .catch(function (error) {
-            console.log(error);
-        }).then(function (){
-            console.log("what is this");
-    });
+        }).catch(dealError);
+
+    axios.post('/post',{
+        id:1,
+        content: 'this is a note'
+    }).then(function (res){
+        let msg = res.data;
+        console.log(msg);
+    }).catch(dealError);
+
+    // axios.get('note/add',{
+    //     params:{
+    //         content: "this is a add note"
+    //     }
+    // }).then(function (res){
+    //     console.log("返回的信息是：" + res.data);
+    // }).catch(dealError);
 
 </script>
 </html>

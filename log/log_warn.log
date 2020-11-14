@@ -1,0 +1,10 @@
+2020-11-14 21:32:13.300 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 21:32:49.902 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 21:34:48.637 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 21:36:21.812 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 21:37:59.117 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 21:59:45.884 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 22:00:13.980 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'content' is not present]
+2020-11-14 22:01:06.738 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-11-14 22:01:41.129 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-14 22:02:42.225 [restartedMain] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.

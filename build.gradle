@@ -25,6 +25,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-logging'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation group: 'org.springframework', name: 'spring-webflux', version: '5.2.9.RELEASE'
 	compileOnly 'org.projectlombok:lombok'

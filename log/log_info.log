@@ -1,0 +1,179 @@
+2020-11-14 21:32:11.614 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 23008 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:32:11.616 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:32:11.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:32:11.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:32:12.056 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:32:12.068 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:32:12.796 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:32:12.804 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:32:12.804 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:32:12.804 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:32:12.893 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:32:12.893 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1238 ms
+2020-11-14 21:32:13.073 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:32:13.295 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:32:13.387 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:32:13.434 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:32:13.442 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:32:13.459 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:32:13.467 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.234 seconds (JVM running for 2.7)
+2020-11-14 21:32:22.850 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 21:32:22.850 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 21:32:22.855 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-14 21:32:48.330 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 8544 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:32:48.332 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:32:48.376 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:32:48.376 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:32:48.772 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:32:48.785 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:32:49.470 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:32:49.476 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:32:49.477 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:32:49.477 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:32:49.565 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:32:49.565 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+2020-11-14 21:32:49.727 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:32:49.900 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:32:49.987 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:32:50.032 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:32:50.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:32:50.057 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:32:50.063 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.088 seconds (JVM running for 2.507)
+2020-11-14 21:32:54.030 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 21:32:54.031 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 21:32:54.036 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-14 21:32:54.283 [http-nio-8080-exec-4] INFO  com.loatr.learning.controller.RestApiController - info
+2020-11-14 21:34:47.074 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 22180 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:34:47.076 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:34:47.115 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:34:47.115 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:34:47.522 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:34:47.534 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:34:48.202 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:34:48.209 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:34:48.209 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:34:48.209 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:34:48.293 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:34:48.293 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1178 ms
+2020-11-14 21:34:48.446 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:34:48.635 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:34:48.723 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:34:48.767 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:34:48.776 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:34:48.793 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:34:48.800 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.086 seconds (JVM running for 2.512)
+2020-11-14 21:35:00.708 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 21:35:00.709 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 21:35:00.713 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-14 21:35:00.968 [http-nio-8080-exec-4] INFO  com.loatr.learning.controller.RestApiController - info
+2020-11-14 21:36:20.093 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 27004 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:36:20.094 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:36:20.136 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:36:20.137 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:36:20.541 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:36:20.554 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:36:21.277 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:36:21.283 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:36:21.284 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:36:21.284 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:36:21.376 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:36:21.376 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+2020-11-14 21:36:21.560 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:36:21.810 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:36:21.903 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:36:21.953 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:36:21.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:36:21.980 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:36:22.011 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.278 seconds (JVM running for 2.755)
+2020-11-14 21:36:26.942 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 21:36:26.942 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 21:36:26.947 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-14 21:36:27.238 [http-nio-8080-exec-4] INFO  com.loatr.learning.controller.RestApiController - info
+2020-11-14 21:37:57.454 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 7060 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:37:57.455 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:37:57.494 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:37:57.495 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:37:57.897 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:37:57.913 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:37:58.620 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:37:58.626 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:37:58.626 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:37:58.627 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:37:58.714 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:37:58.715 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1220 ms
+2020-11-14 21:37:58.879 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:37:59.114 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:37:59.225 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:37:59.288 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:37:59.301 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:37:59.326 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:37:59.374 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.274 seconds (JVM running for 2.694)
+2020-11-14 21:38:13.196 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 21:38:13.197 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 21:38:13.202 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-14 21:59:44.343 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 11568 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 21:59:44.344 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 21:59:44.383 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 21:59:44.383 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 21:59:44.752 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 21:59:44.765 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
+2020-11-14 21:59:45.421 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 21:59:45.427 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:59:45.427 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 21:59:45.428 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 21:59:45.509 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 21:59:45.510 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1127 ms
+2020-11-14 21:59:45.665 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 21:59:45.882 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 21:59:45.976 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 21:59:46.027 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 21:59:46.035 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 21:59:46.054 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 21:59:46.086 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.072 seconds (JVM running for 2.452)
+2020-11-14 22:00:13.775 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 22:00:13.776 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 22:00:13.780 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-14 22:01:05.057 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 23920 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 22:01:05.058 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 22:01:05.098 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 22:01:05.098 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 22:01:05.516 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 22:01:05.532 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 JDBC repository interfaces.
+2020-11-14 22:01:06.266 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 22:01:06.273 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 22:01:06.273 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 22:01:06.273 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 22:01:06.365 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 22:01:06.366 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1268 ms
+2020-11-14 22:01:06.524 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 22:01:06.736 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 22:01:06.830 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 22:01:06.878 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 22:01:06.886 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 22:01:06.902 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 22:01:06.925 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.207 seconds (JVM running for 2.658)
+2020-11-14 22:01:40.936 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 22:01:40.937 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 22:01:40.942 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-14 22:02:40.705 [restartedMain] INFO  com.loatr.learning.LearningApplication - Starting LearningApplication on loatr with PID 27056 (D:\code\java\spring\learning\build\classes\java\main started by wangb in D:\code\java\spring\learning)
+2020-11-14 22:02:40.706 [restartedMain] INFO  com.loatr.learning.LearningApplication - No active profile set, falling back to default profiles: default
+2020-11-14 22:02:40.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-14 22:02:40.745 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-14 22:02:41.120 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-11-14 22:02:41.132 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 JDBC repository interfaces.
+2020-11-14 22:02:41.787 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-14 22:02:41.793 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-14 22:02:41.794 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-14 22:02:41.794 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-14 22:02:41.878 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-14 22:02:41.878 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1133 ms
+2020-11-14 22:02:42.027 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 22:02:42.223 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-14 22:02:42.308 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-14 22:02:42.355 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-11-14 22:02:42.363 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-14 22:02:42.379 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-14 22:02:42.404 [restartedMain] INFO  com.loatr.learning.LearningApplication - Started LearningApplication in 2.027 seconds (JVM running for 2.421)
+2020-11-14 22:02:48.808 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 22:02:48.809 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-14 22:02:48.813 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
