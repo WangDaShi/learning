@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    LearnJs
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<body>
+<div style="width: 100%;">
+    <div style="width: 49%;display:inline-block">
+        <p>这个页面是用来测试的2</p>
+        <a name = 'asd2'></a>
+    </div>
+    <div style="width: 49%;display:inline-block">
+        <p>这个页面是用来测试的</p>
+        <a name = 'asd2'></a>
+    </div>
+</div>
+</body>
+<script>
+
+    axios.get('/random/10')
+        .then(function (response) {
+            console.log(response.data);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+
+    function testPromise() {
+        const promise = new Promise(function (resolve, reject) {
+            let a = 90;
+            if (a > 100) {
+                resolve("成功啦");
+            } else {
+                reject("失败了");
+            }
+        });
+        promise.then(msg => console.log(msg));
+        promise.catch(msg => console.log(msg));
+    }
+</script>
+</html>
